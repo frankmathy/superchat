@@ -1,3 +1,4 @@
+// Based on Youtube-Tutorial: https://www.youtube.com/watch?v=zQyrwxMPm88 https://github.com/fireship-io/react-firebase-chat/tree/master/public
 import './App.css';
 
 import React, { useRef, useState } from 'react';
