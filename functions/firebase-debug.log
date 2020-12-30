@@ -1,0 +1,42 @@
+[debug] [2020-12-30T23:15:05.221Z] ----------------------------------------------------------------------
+[debug] [2020-12-30T23:15:05.224Z] Command:       /usr/local/Cellar/node/14.13.0/bin/node /usr/local/bin/firebase functions:shell
+[debug] [2020-12-30T23:15:05.224Z] CLI Version:   9.1.0
+[debug] [2020-12-30T23:15:05.224Z] Platform:      darwin
+[debug] [2020-12-30T23:15:05.224Z] Node Version:  v14.13.0
+[debug] [2020-12-30T23:15:05.226Z] Time:          Thu Dec 31 2020 00:15:05 GMT+0100 (Mitteleuropäische Normalzeit)
+[debug] [2020-12-30T23:15:05.227Z] ----------------------------------------------------------------------
+[debug] [2020-12-30T23:15:05.227Z] 
+[debug] [2020-12-30T23:15:05.237Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-30T23:15:05.237Z] > authorizing via signed-in user
+[debug] [2020-12-30T23:15:05.238Z] [iam] checking project superchat-7e558 for permissions ["firebase.projects.get"]
+[debug] [2020-12-30T23:15:05.241Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/superchat-7e558:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-12-30T23:15:05.948Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 30 Dec 2020 23:15:05 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=612","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[warn] ⚠  Your requested "node" version "12" doesn't match your global version "14" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"12\" doesn't match your global version \"14\""}}
+[debug] [2020-12-30T23:15:05.965Z] defaultcredentials: writing to file /Users/frankmathy/.config/firebase/frankmathy_gmail_com_application_default_credentials.json
+[debug] [2020-12-30T23:15:05.967Z] DEBUG: Setting GAC to /Users/frankmathy/.config/firebase/frankmathy_gmail_com_application_default_credentials.json
+[debug] [2020-12-30T23:15:05.978Z] [functions] Watching "/Users/frankmathy/devlocal/react-playground/superchat/functions" for Cloud Functions...
+[debug] [2020-12-30T23:15:05.989Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-12-30T23:15:05.990Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-12-30T23:15:05.990Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-12-30T23:15:05.990Z] DEBUG: [worker-~diagnostic~-ea76f6a9-96f1-4822-8a81-aa820bd35e54]: Assigning socketPath: /var/folders/c3/r2pn5_hx0w5_6p83ylx53vvw0000gn/T/fire_emu_4104.sock
+[debug] [2020-12-30T23:15:05.991Z] DEBUG: [worker-~diagnostic~-ea76f6a9-96f1-4822-8a81-aa820bd35e54]: BUSY
+[debug] [2020-12-30T23:15:06.187Z] DEBUG: [runtime-status] [4104] Functions runtime initialized. {"cwd":"/Users/frankmathy/devlocal/react-playground/superchat/functions","node_version":"14.13.0"}
+[debug] [2020-12-30T23:15:06.188Z] DEBUG: [runtime-status] [4104] Disabled runtime features: undefined
+[debug] [2020-12-30T23:15:06.191Z] DEBUG: [runtime-status] [4104] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.4.2","resolution":"/Users/frankmathy/devlocal/react-playground/superchat/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-12-30T23:15:06.194Z] DEBUG: [runtime-status] [4104] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/frankmathy/devlocal/react-playground/superchat/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-12-30T23:15:06.196Z] DEBUG: [runtime-status] [4104] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/frankmathy/devlocal/react-playground/superchat/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-12-30T23:15:06.198Z] DEBUG: [runtime-status] [4104] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}]
+[debug] [2020-12-30T23:15:06.199Z] DEBUG: [runtime-status] [4104] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/frankmathy/devlocal/react-playground/superchat/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-12-30T23:15:06.265Z] DEBUG: [runtime-status] [4104] Checked functions.config() {"config":{}}
+[debug] [2020-12-30T23:15:06.266Z] DEBUG: [runtime-status] [4104] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/frankmathy/devlocal/react-playground/superchat/functions/node_modules/firebase-functions/lib/index.js"}}
+[debug] [2020-12-30T23:15:06.266Z] DEBUG: [runtime-status] [4104] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/frankmathy/devlocal/react-playground/superchat/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-12-30T23:15:06.267Z] DEBUG: [runtime-status] [4104] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.4.2","resolution":"/Users/frankmathy/devlocal/react-playground/superchat/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-12-30T23:15:06.268Z] DEBUG: [runtime-status] [4104] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/frankmathy/devlocal/react-playground/superchat/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-12-30T23:15:06.268Z] DEBUG: [runtime-status] [4104] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"9.4.2","resolution":"/Users/frankmathy/devlocal/react-playground/superchat/functions/node_modules/firebase-admin/lib/index.js"}}
+[debug] [2020-12-30T23:15:06.276Z] DEBUG: [runtime-status] [4104] initializeApp(DEFAULT) {"databaseURL":"https://superchat-7e558.firebaseio.com","storageBucket":"superchat-7e558.appspot.com","projectId":"superchat-7e558"}
+[warn] ⚠  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production. {"metadata":{"emulator":{"name":"functions"},"message":"The Cloud Firestore emulator is not running, so calls to Firestore will affect production."}}
+[debug] [2020-12-30T23:15:06.612Z] [functions[detectEvilUsers]] function ignored because the firestore emulator does not exist or is not running.
+[info] i  functions: Loaded functions: detectEvilUsers 
+[warn] ⚠  functions: The following emulators are not running, calls to these services will affect production: firestore, database, pubsub 
+[debug] [2020-12-30T23:15:06.636Z] DEBUG: [worker-~diagnostic~-ea76f6a9-96f1-4822-8a81-aa820bd35e54]: IDLE
